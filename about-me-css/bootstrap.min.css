@@ -6,13 +6,17 @@
 /*# sourceMappingURL=bootstrap.min.css.map */
 
 body{
-    background-color: #DFD6C9;
+    background: #262719;
 }
 
+.color-box{
+    width: 1277px;
+    height: 150px;
+    background: #3E3F29;
+}
 
 h1{
     color: #C17F29;
-    background-color: #3E3F29;
     text-align: center;
     padding: 24px;
     font-family: Rafaella;
@@ -24,6 +28,7 @@ h1{
 
 .navbar{
     background-color: #BCA88D;
+    width: 1277px;
     height: 77px;
 
 
@@ -36,22 +41,4 @@ h1{
     line-height: 100%; /* 32px */
 }
 
-.row{
-    padding: 20px;
-}
 
-.section-one{
-    background: #4B3522;
-    height: 220px;
-}
-
-p{
-    color: #BCA88D;
-    text-align: center;
-    padding: 60px;
-    font-family: "Adobe Caslon Pro";
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 34px; /* 141.667% */
-}
