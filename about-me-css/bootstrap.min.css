@@ -46,6 +46,12 @@ h1{
     margin: 20px;
 }
 
+img{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
 p{
     color: #BCA88D;
     padding: 30px;
@@ -55,6 +61,11 @@ p{
     font-style: normal;
     font-weight: 700;
     line-height: 20px;
+}
+
+
+img{
+    padding: 10px;
 }
 
 h2{
@@ -71,6 +82,16 @@ h2{
 .section-three{
     background-color: #3E3F29;
    
-    height: 400px;
+    height: 600px;
     margin: 20px;
 }
+
+.p-1{
+    color: #DFD6C9;
+    font-family: "Adobe Caslon Pro";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 19px; /* 95% */
+}
+
