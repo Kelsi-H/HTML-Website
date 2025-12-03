@@ -9,9 +9,16 @@ body{
     background-color: #DFD6C9;
 }
 
+#box1{
+    width: 1277px;
+    height: 150px;
+    background: #3E3F29;
+}
+
 h1{
     color: #C17F29;
     text-align: center;
+    padding: 24px;
     font-family: Rafaella;
     font-size: 80px;
     font-style: normal;
@@ -19,13 +26,14 @@ h1{
     line-height: 100%; /* 80px */
 }
 
-nav{
+.navbar{
     background-color: #BCA88D;
-    width: 1264px;
+    width: 1277px;
     height: 77px;
 
+
     color: #3E3F29;
-    text-align: center;
+    text-align: center;  
     font-family: "Sweet Titling No. 26";
     font-size: 32px;
     font-style: normal;
@@ -33,9 +41,19 @@ nav{
     line-height: 100%; /* 32px */
 }
 
+img{
+    padding: 30px;
+}
+
+.color-box{
+    width: 1277px;
+    height: 200px;
+    background: #4B3522;
+}
 p{
     color: #BCA88D;
     text-align: center;
+    padding: 50px;
     font-family: "Adobe Caslon Pro";
     font-size: 24px;
     font-style: normal;
