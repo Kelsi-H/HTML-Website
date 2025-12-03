@@ -9,10 +9,13 @@ body{
     background-color: #DFD6C9;
 }
 
+.section-one{
+    background-color: #3E3F29;
+    height: 150px;
+}
 
 h1{
     color: #C17F29;
-    background-color: #3E3F29;
     text-align: center;
     padding: 24px;
     font-family: Rafaella;
@@ -40,7 +43,7 @@ h1{
     padding: 20px;
 }
 
-.section-one{
+.section-two{
     background: #4B3522;
     height: 220px;
 }
