@@ -9,11 +9,11 @@ body{
     background: #262719;
 }
 
-.color-box{
-    width: 1277px;
+.section-one{
+    background-color: #3E3F29;
     height: 150px;
-    background: #3E3F29;
 }
+
 
 h1{
     color: #C17F29;
@@ -28,9 +28,7 @@ h1{
 
 .navbar{
     background-color: #BCA88D;
-    width: 1277px;
     height: 77px;
-
 
     color: #3E3F29;
     text-align: center;  
@@ -41,4 +39,20 @@ h1{
     line-height: 100%; /* 32px */
 }
 
+.section-two{
+    background: #4B3522;
+    width: 625px;
+    height: 273px;
+    margin: 20px;
+}
+
+p{
+    color: #BCA88D;
+    padding: 30px;
+    font-family: "Adobe Caslon Pro";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+}
 
