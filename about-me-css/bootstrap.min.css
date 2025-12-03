@@ -41,15 +41,15 @@ h1{
 
 .section-two{
     background: #4B3522;
-    width: 625px;
+   
     height: 273px;
     margin: 20px;
 }
 
 p{
     color: #BCA88D;
-    text-align: center;
     padding: 30px;
+    text-align: left;
     font-family: "Adobe Caslon Pro";
     font-size: 16px;
     font-style: normal;
@@ -57,3 +57,20 @@ p{
     line-height: 20px;
 }
 
+h2{
+   
+    color: #2E2F1E;
+    margin: 30px;
+    font-family: "Sweet Titling No. 26";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 100px; /* 208.333% */
+}
+
+.section-three{
+    background-color: #3E3F29;
+   
+    height: 400px;
+    margin: 20px;
+}
