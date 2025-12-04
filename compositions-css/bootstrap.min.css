@@ -38,3 +38,9 @@ h1{
     font-weight: 300;
     line-height: 100%; /* 32px */
 }
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 30px;
+}
