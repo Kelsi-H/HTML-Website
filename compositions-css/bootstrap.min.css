@@ -44,3 +44,52 @@ h1{
     grid-template-columns: repeat(12, 1fr);
     gap: 30px;
 }
+
+main{
+    max-width: 1200px;
+    margin: 60px auto;
+    padding: 20px;
+}
+
+main .paragraph{
+    grid-column: span 12;
+    text-align: center;
+}
+
+main .compositions{
+    grid-column: span 12;
+    padding: 10px 20px;
+}
+
+main .pics{
+    grid-column: span 12;
+    text-align: center;
+}
+
+img{
+    align-items: center;
+    width: 350px;
+    height: 415px;
+}
+
+h2{
+    color: #623B19;
+    font-family: "Sweet Titling No. 26";
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+p{
+    color: #916641;
+    font-family: "Adobe Caslon Pro";
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 37px; /* 137.037% */
+    padding: 20px;
+    border-bottom: 3px solid #464731;
+    padding-bottom: 40px;
+}
+
