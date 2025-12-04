@@ -62,6 +62,15 @@ article img, article.featured img{
     width: 100%;
 }
 
+h3{
+    color: #C17F29;
+    font-family: "Sweet Titling No. 26";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 100px; /* 208.333% */
+}
+
 p{
     color: #DFD6C9;
     font-family: "Adobe Caslon Pro";
@@ -69,6 +78,28 @@ p{
     font-style: normal;
     font-weight: 700;
     line-height: 25px; /* 123.529% */
+}
+
+article p, article h3{
+    margin: 20px 10px;
+}
+
+/* responsive */
+@media screen and (max-width: 980px){
+    article {
+        grid-column: span 3;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 60px;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    article, article.featured {
+        display: block;
+        margin: 0 20px;
+    }
 }
 
 
