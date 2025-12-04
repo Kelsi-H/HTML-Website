@@ -39,59 +39,39 @@ h1{
     line-height: 100%; /* 32px */
 }
 
-.section-two{
-    background: #4B3522;
-   
-    height: 273px;
-    margin: 20px;
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 60px;
+    max-width: 1200px;
+    margin: 20px auto;
 }
 
-img{
-    display: flex;
+article.featured{
+    grid-column: span 3;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
     align-items: center;
-    gap: 1rem;
+    border-bottom: 3px solid #464731;
+    padding-bottom: 40px;
+    
+}
+
+article img, article.featured img{
+    width: 100%;
 }
 
 p{
-    color: #BCA88D;
-    padding: 30px;
-    text-align: left;
-    font-family: "Adobe Caslon Pro";
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 20px;
-}
-
-
-img{
-    padding: 10px;
-}
-
-h2{
-   
-    color: #2E2F1E;
-    margin: 30px;
-    font-family: "Sweet Titling No. 26";
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 300;
-    line-height: 100px; /* 208.333% */
-}
-
-.section-three{
-    background-color: #3E3F29;
-   
-    height: 600px;
-    margin: 20px;
-}
-
-.p-1{
     color: #DFD6C9;
     font-family: "Adobe Caslon Pro";
-    font-size: 20px;
+    font-size: 17px;
     font-style: normal;
     font-weight: 700;
-    line-height: 19px; /* 95% */
+    line-height: 25px; /* 123.529% */
 }
+
+
+
+
 
