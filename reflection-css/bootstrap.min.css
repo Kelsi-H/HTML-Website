@@ -39,6 +39,22 @@ h1{
     line-height: 100%; /* 32px */
 }
 
+.grid{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 30px;
+}
+
+main{
+    max-width: 1200px;
+    margin: 60px auto;
+    padding: 20px;
+}
+
+main .paragraph{
+    grid-column: span 12;
+    text-align: center;
+}
 
 p{
     color: #918069;
@@ -48,4 +64,5 @@ p{
     font-style: normal;
     font-weight: 700;
     line-height: 28px; /* 140% */
+    padding: 20px;
 }
