@@ -45,7 +45,7 @@ h1{
 
 .section-two{
     background: #4B3522;
-    height: 220px;
+    height: auto;
 }
 
 p{
@@ -57,4 +57,10 @@ p{
     font-style: normal;
     font-weight: 700;
     line-height: 34px; /* 141.667% */
+}
+
+@media screen and (max-width:640px) {
+    .section-one{
+        height: 250px;
+    }
 }

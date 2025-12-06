@@ -38,3 +38,95 @@ h1{
     font-weight: 300;
     line-height: 100%; /* 32px */
 }
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    min-height: 100%;
+}
+
+.panel {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+img {
+    width: 100%;
+}
+.panel.PO3E {
+    background: #4B3522;
+    padding: 30px 60px;
+}
+
+.panel.PO3E h2{
+    color: #2F2114;
+    font-family: "Sweet Titling No. 26";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.panel.PO3E p{
+    color: #BCA88D;
+    font-family: "Adobe Caslon Pro";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.panel.coding {
+    background: #877762;
+    padding: 30px 60px;
+}
+
+.panel.coding h2{
+    color: #43392A;
+    font-family: "Sweet Titling No. 26";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    padding-bottom: 30px;
+}
+
+.panel.coding p{
+    color: #61523E;
+    font-family: "Adobe Caslon Pro";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.panel.mediaStudio {
+    background: #3E3F29;
+    padding: 30px 60px;
+}
+
+.panel.mediaStudio h2{
+    color: #2E2F1E;
+    font-family: "Sweet Titling No. 26";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    padding-bottom: 30px;
+}
+
+.panel.mediaStudio p{
+    color: #6D6E49;
+    font-family: "Adobe Caslon Pro";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 60px;
+}
+
+@media screen and (max-width:640px) {
+    .section-one{
+        height: 250px;
+    }
+}
