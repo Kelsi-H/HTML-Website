@@ -125,6 +125,36 @@ img {
     padding-bottom: 60px;
 }
 
+@media screen and (max-width: 1400px) {
+    main {
+        grid-template-columns: 1fr 1fr;
+    } 
+    .panel.mediaStudio {
+        grid-column: span 2;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    main {
+        grid-template-columns: 100%;
+        grid-template-rows: 1000px 525px 800px;
+    }
+    .panel.coding {
+        grid-row: 2;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+}
+
+@media screen and (max-width: 880px) {
+    main {
+        grid-template-rows: 1000px auto 900px;
+    }
+}
+
+
 @media screen and (max-width:640px) {
     .section-one{
         height: 250px;
