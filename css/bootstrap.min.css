@@ -59,6 +59,12 @@ p{
     line-height: 34px; /* 141.667% */
 }
 
+@media screen and (max-width: 1415px) {
+    .section-two{
+        height: 600px;
+    }
+}
+
 @media screen and (max-width:640px) {
     .section-one{
         height: 250px;
