@@ -45,7 +45,7 @@ h1{
 
 .section-two{
     background: #4B3522;
-    height: auto;
+    height: 500px;
 }
 
 p{
@@ -53,7 +53,7 @@ p{
     text-align: center;
     padding: 60px;
     font-family: "Adobe Caslon Pro";
-    font-size: 24px;
+    font-size: 34px;
     font-style: normal;
     font-weight: 700;
     line-height: 34px; /* 141.667% */
