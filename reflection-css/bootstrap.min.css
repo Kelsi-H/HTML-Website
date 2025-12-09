@@ -44,9 +44,7 @@ h1{
 }
 
 
-
 p{
-    width: 1550px;
     color: #918069;
     text-align: center;
     font-family: "Adobe Caslon Pro";
@@ -54,15 +52,10 @@ p{
     font-style: normal;
     font-weight: 700;
     line-height: 28px; /* 140% */
-    padding: 20px;
 }
 
 @media screen and (max-width:640px) {
     .section-one{
         height: 250px;
     }
-}
-.center {
-  margin: auto;
-  align-items: center;
 }
