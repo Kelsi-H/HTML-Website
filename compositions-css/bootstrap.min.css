@@ -32,7 +32,7 @@ h1{
 
     color: #3E3F29;
     text-align: center;  
-    font-family: "Sweet Titling No. 26";
+    font-family: "sweet-titling-no-26", sans-serif;
     font-size: 32px;
     font-style: normal;
     font-weight: 300;
@@ -74,7 +74,7 @@ img{
 
 h2{
     color: #623B19;
-    font-family: "Sweet Titling No. 26";
+    font-family: "sweet-titling-no-26", sans-serif;
     font-size: 80px;
     font-style: normal;
     font-weight: 300;

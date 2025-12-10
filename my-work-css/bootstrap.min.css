@@ -32,7 +32,7 @@ h1{
 
     color: #3E3F29;
     text-align: center;  
-    font-family: "Sweet Titling No. 26";
+    font-family: "sweet-titling-no-26", sans-serif;
     font-size: 32px;
     font-style: normal;
     font-weight: 300;
@@ -60,7 +60,7 @@ img {
 
 .panel.PO3E h2{
     color: #2F2114;
-    font-family: "Sweet Titling No. 26";
+    font-family: "sweet-titling-no-26", sans-serif;
     font-size: 48px;
     font-style: normal;
     font-weight: 300;
@@ -83,7 +83,7 @@ img {
 
 .panel.coding h2{
     color: #43392A;
-    font-family: "Sweet Titling No. 26";
+    font-family: "sweet-titling-no-26", sans-serif;
     font-size: 48px;
     font-style: normal;
     font-weight: 300;
@@ -107,7 +107,7 @@ img {
 
 .panel.mediaStudio h2{
     color: #2E2F1E;
-    font-family: "Sweet Titling No. 26";
+    font-family: "sweet-titling-no-26", sans-serif;
     font-size: 48px;
     font-style: normal;
     font-weight: 300;
